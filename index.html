@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS</title>
+</head>
+<body>
+    <div class="container">
+        <h2>CORS Policy Test</h2>
+
+        <p>Cross-Origin Resource Sharing</p>
+
+        <br/><br/>
+        <!-- This image does not contain Access-Control-Allow-Origin header -->
+        <img src="https://afiles.webengage.com/~13410522d/7cea6dfd-420d-4c26-bdc6-90732205a66f.jpg" 
+            width="200" 
+            height="200"
+            crossorigin="anonymous">
+
+        <br/><br/>
+        <!-- This image contains Access-Control-Allow-Origin: * header -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Strychnine.svg/360px-Strychnine.svg.png" 
+            width="200" 
+            height="200"
+            crossorigin="anonymous">
+    </div>
+</body>
+</html>
